@@ -1,7 +1,23 @@
-.top1{
+.top1 {
   display:inline-block;
-  font-size:35px;
-  color:#66ccaa;
-  margin:1px;
-  padding:1px;
+  font-size:55px;
+  color: green;
+  margin:10px;
+  padding:10px;
+}
+
+.top2{
+  display:inline-block;
+  font-size:15px;
+  color:#66cccc;
+  margin:100px;
+  padding:100px;
+}
+
+.top3{
+  display:inline-block;
+  font-size:15px;
+  color:#66ccee;
+  margin:100px;
+  padding:100px;
 }
