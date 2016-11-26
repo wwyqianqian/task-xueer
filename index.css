@@ -1,4 +1,4 @@
-.body{
+body{
     margin:0px;
     padding:0px;
 }
@@ -9,9 +9,11 @@
     height:80px;
 }
 .logo {
-    width: 100px;
+    width: 120px;
     height: 80px;
     display: inline-block;
+    position: relative;
+    left: 45px;
 }
 .logo-picture{
     position: relative;
@@ -21,13 +23,13 @@
     margin-left:-50px;
 }
 .guide{
-    width:305px;
+    width:400px;
     height: 80px;
     display: inline-block;
     vertical-align: top;
 }
 .index{
-    width:100px;
+    width:160px;
     height:80px;
     display: inline-block;
     text-align: center;
@@ -42,4 +44,48 @@
 }
 .flck{
     color: dimgray;
+}
+.search{
+    width:390px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+.inputxe{
+    width: 267px;
+    height: 80px;
+    display: inline-block;
+}
+.search-input{
+    border:red 2px solid;
+    width: 266px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top:calc(50% - 26px);
+}
+.buttonxe{
+    width:50px;
+    height:80px;
+    display: inline-block;
+}
+.search-button{
+    width:80px;
+    height:34px;
+    display: inline-block;
+    position: relative;
+    top:calc(50% - 17px);
+}
+.picture{
+    width:50px;
+    height:80px;
+    display: inline-block;
+}
+.search-picture{
+    width:80px;
+    height:34px;
+    display: inline-block;
+    position: relative;
+    top:calc(50% - 13px);
+    left: -55px;
 }
