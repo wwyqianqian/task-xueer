@@ -46,13 +46,13 @@ body{
     color: dimgray;
 }
 .search{
-    width:390px;
+    width:450px;
     height: 80px;
     display: inline-block;
     vertical-align: top;
 }
 .inputxe{
-    width: 267px;
+    width: 268px;
     height: 80px;
     display: inline-block;
 }
@@ -62,10 +62,10 @@ body{
     height: 30px;
     display: inline-block;
     position: relative;
-    top:calc(50% - 26px);
+    top:calc(50% - 25px);
 }
 .buttonxe{
-    width:50px;
+    width:80px;
     height:80px;
     display: inline-block;
 }
@@ -75,17 +75,5 @@ body{
     display: inline-block;
     position: relative;
     top:calc(50% - 17px);
-}
-.picture{
-    width:50px;
-    height:80px;
-    display: inline-block;
-}
-.search-picture{
-    width:80px;
-    height:34px;
-    display: inline-block;
-    position: relative;
-    top:calc(50% - 13px);
-    left: -55px;
+    background-image: url("http://p1.bqimg.com/4851/527ea2d653366686.png")
 }
