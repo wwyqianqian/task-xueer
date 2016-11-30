@@ -17,10 +17,7 @@ body{
 }
 .logo-picture{
     position: relative;
-    top:50%;
-    left:50%;
-    margin-top:-40px;
-    margin-left:-50px;
+    top:calc(50% - 20px);
 }
 .guide{
     width:400px;
@@ -76,4 +73,19 @@ body{
     position: relative;
     top:calc(50% - 17px);
     background-image: url("http://p1.bqimg.com/4851/527ea2d653366686.png")
+}
+.login{
+    width: 70px;
+    height: 80px;
+    display: inline-block;
+}
+.dlzc{
+    width: 90px;
+    height: 34px;
+    display: inline-block;
+    position: relative;
+    background-color: #1dc091;
+    color: white;
+    top:calc(50% - 30px);
+    font-size: 14px;
 }
