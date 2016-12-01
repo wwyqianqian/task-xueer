@@ -90,19 +90,37 @@ body{
     font-size: 14px;
 }
 .main{
-    width: 100%;
-    margin: 0 auto;
+    width: 1137px;
     height:700px;
-    left: 80px;
 }
 .banner{
-    width: 100%;
+    width: 1001px;
     height: 350px;
-    left: 80px;
-    display: inline-block;
-}
+    display: block;
+    position: relative;
+    left:calc(50% - 510px)
+  }
 .bannerpicturebox{
-    width: 100%;
+    width: 1001px;
     height: 350px;
-    left: 80px;
+    display: block;
+    position: relative;
+}
+.rightbox_one{
+    background-color:lightcyan;
+    border-radius: 15px 15px 15px 15px;
+    height: 15px;
+    width: 15px;
+    bottom: 15px;
+    right: 30px;
+    position: absolute;
+}
+.rightbox_two{
+    background-color:lightcyan;
+    border-radius: 15px 15px 15px 15px;
+    height: 15px;
+    width: 15px;
+    left: 996px;
+    top: 400px;
+    position: absolute;
 }
