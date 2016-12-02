@@ -92,6 +92,7 @@ body{
 .main{
     width: 1137px;
     height:700px;
+    background-color: whitesmoke;
 }
 .banner{
     width: 1001px;
@@ -99,12 +100,13 @@ body{
     display: block;
     position: relative;
     left:calc(50% - 510px)
-  }
+}
 .bannerpicturebox{
     width: 1001px;
     height: 350px;
     display: block;
     position: relative;
+
 }
 .rightbox_one{
     background-color:lightcyan;
@@ -123,4 +125,44 @@ body{
     left: 996px;
     top: 400px;
     position: absolute;
+}
+.listA{
+    width: 250px;
+    height: 350px;
+    margin-left: 60px;
+    background-color: white;
+    display: inline-block;
+    text-align:center;
+}
+.circleA{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 2px  #1dc091 solid;
+    -webkit-border-radius: 100px;
+    position: absolute;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+
+
+
+.listB{
+    width: 250px;
+    height: 350px;
+    background-color: #1dc091;
+    display: inline-block;
+}
+.listC{
+    width: 250px;
+    height: 350px;
+    background-color: #1dc091;
+    display: inline-block;
+}
+.listD{
+    width: 250px;
+    height: 350px;
+    background-color: #1dc091;
+    display: inline-block;
 }
