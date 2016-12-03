@@ -132,7 +132,6 @@ body{
     margin-left: 67px;
     background-color: white;
     display: inline-block;
-    text-align:center;
 }
 .circleA{
     width: 100px;
@@ -143,16 +142,17 @@ body{
     position: absolute;
     left:calc(50% - 425px);
     margin-top: 30px;
+
 }
 .wordA{
+    width: 100px;
+    height: 100px;
     position: absolute;
     font-family:  "PingFang SC";
-    line-height: 96px;
     font-size: 36px;
     font-weight: lighter;
-
+    top:calc(50% - 25px);
     color: aquamarine;
-
 }
 
 
