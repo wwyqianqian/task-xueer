@@ -144,9 +144,11 @@ body{
     background-color: white;
     border: 2px  #1dc091 solid;
     -webkit-border-radius: 100px;
-    position:relative;
-    left: 75px;
-    top: 30px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.hidelineA{
+  display: inline-block;
 }
 .word{
     position: absolute;
@@ -170,9 +172,8 @@ body{
     background-color: white;
     border: 2px  #1dc091 solid;
     -webkit-border-radius: 100px;
-    position: relative;
-    left: 75px;
-    top: 30px;
+    margin: 0 auto;
+    margin-top: 10%;
 }
 .listC{
     width: 247px;
@@ -186,9 +187,8 @@ body{
     background-color: white;
     border: 2px  #1dc091 solid;
     -webkit-border-radius: 100px;
-    position: relative;
-    left: 75px;
-    top: 30px;
+    margin: 0 auto;
+    margin-top: 10%;
 }
 .listD{
     width: 247px;
@@ -202,7 +202,6 @@ body{
     background-color: white;
     border: 2px  #1dc091 solid;
     -webkit-border-radius: 100px;
-    position: relative;
-    left: 75px;
-    top: 30px;
+    margin: 0 auto;
+    margin-top: 10%;
 }
