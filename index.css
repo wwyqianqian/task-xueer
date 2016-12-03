@@ -146,18 +146,15 @@ body{
     -webkit-border-radius: 100px;
     margin: 0 auto;
     margin-top: 10%;
+    text-align: center;
+    line-height: 90px;
+    font-size: 36px;
+    color: #1dc091;
+    font-family: "PingFang SC";
+    font-weight: lighter;
 }
 .hidelineA{
   display: inline-block;
-}
-.word{
-    position: absolute;
-    font-family:  "PingFang SC";
-    font-size: 36px;
-    font-weight: lighter;
-    top:calc(50% - 25px);
-    color: aquamarine;
-    left: 27px;
 }
 .listB{
     width: 247px;
@@ -174,6 +171,12 @@ body{
     -webkit-border-radius: 100px;
     margin: 0 auto;
     margin-top: 10%;
+    text-align: center;
+    line-height: 90px;
+    font-size: 36px;
+    color: #1dc091;
+    font-family: "PingFang SC";
+    font-weight: lighter;
 }
 .listC{
     width: 247px;
@@ -189,6 +192,12 @@ body{
     -webkit-border-radius: 100px;
     margin: 0 auto;
     margin-top: 10%;
+    text-align: center;
+    line-height: 90px;
+    font-size: 36px;
+    color: #1dc091;
+    font-family: "PingFang SC";
+    font-weight: lighter;
 }
 .listD{
     width: 247px;
@@ -204,4 +213,10 @@ body{
     -webkit-border-radius: 100px;
     margin: 0 auto;
     margin-top: 10%;
+    text-align: center;
+    line-height: 90px;
+    font-size: 36px;
+    color: #1dc091;
+    font-family: "PingFang SC";
+    font-weight: lighter;
 }
