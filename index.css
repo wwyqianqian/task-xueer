@@ -109,21 +109,21 @@ body{
 
 }
 .rightbox_one{
-    background-color:lightcyan;
-    border-radius: 15px 15px 15px 15px;
-    height: 15px;
-    width: 15px;
+    background-color:white;
+    border-radius: 12px 12px 12px 12px;
+    height: 12px;
+    width: 12px;
     bottom: 15px;
     right: 30px;
     position: absolute;
 }
 .rightbox_two{
-    background-color:lightcyan;
-    border-radius: 15px 15px 15px 15px;
-    height: 15px;
-    width: 15px;
-    left: 996px;
-    bottom:15px;
+    background-color:white;
+    border-radius: 12px 12px 12px 12px;
+    height: 12px;
+    width: 12px;
+    right: 55px;
+    bottom: 15px;
     position: absolute;
 }
 .wrap{
@@ -148,7 +148,7 @@ body{
     left: 75px;
     top: 30px;
 }
-.wordA{
+.word{
     position: absolute;
     font-family:  "PingFang SC";
     font-size: 36px;
@@ -177,7 +177,7 @@ body{
 .listC{
     width: 247px;
     height: 100%;
-    background-color: #1dc091;
+    background-color: white;
     display: inline-block;
 }
 .circleC{
@@ -193,7 +193,7 @@ body{
 .listD{
     width: 247px;
     height: 100%;
-    background-color: #1dc091;
+    background-color: white;
     display: inline-block;
 }
 .circleD{
