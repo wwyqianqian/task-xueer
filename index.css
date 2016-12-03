@@ -147,11 +147,11 @@ body{
 .wordA{
     width: 100px;
     height: 100px;
-    position: absolute;
+    position: relative;
     font-family:  "PingFang SC";
     font-size: 36px;
     font-weight: lighter;
-    top:calc(50% - 25px);
+    top:calc(50% - 9px);
     color: aquamarine;
 }
 
