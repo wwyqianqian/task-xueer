@@ -156,7 +156,7 @@ body{
 .hidelineA{
   display: block;
 }
-.h1{
+.h{
   font-size:16px;
   width: 200px;
   line-height:20px;
@@ -166,6 +166,7 @@ body{
   text-overflow: ellipsis;
   overflow: hidden;
   color: #5c5c5c;
+  text-decoration:none;
 }
 .listB{
     width: 247px;
