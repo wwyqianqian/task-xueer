@@ -141,11 +141,19 @@ body{
     border: 2px  #1dc091 solid;
     -webkit-border-radius: 100px;
     position: absolute;
-    margin: 0 auto;
+    left:calc(50% - 425px);
     margin-top: 30px;
+}
+.wordA{
+    position: absolute;
+    font-family:  "PingFang SC";
+    line-height: 96px;
+    font-size: 36px;
+    font-weight: lighter;
+
+    color: aquamarine;
 
 }
-
 
 
 .listB{
