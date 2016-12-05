@@ -131,7 +131,7 @@ body{
   height: 350px;
 }
 .listA{
-    width: 250px;
+    width: 247px;
     height: 100%;
     margin-left: 67px;
     background-color: white;
@@ -155,8 +155,25 @@ body{
 }
 .hidelineA{
   display: block;
+  border-right: 2px solid #eeeeee;
+}
+.h1{
+  color: #5c5c5c;
+  font-size: 14px;
+  padding: 5px 30px;
+}
+.h2{
+  color: #5c5c5c;
+  font-size: 14px;
+  padding: 5px 30px;
+}
+.h3{
+  color: #5c5c5c;
+  font-size: 14px;
+  padding: 5px 30px;
 }
 .h{
+  margin: 6px 0 0 0 ;
   font-size:16px;
   width: 200px;
   line-height:20px;
@@ -168,12 +185,16 @@ body{
   color: #5c5c5c;
   text-decoration:none;
 }
+a:hover{
+  color: red;
+}
 .listB{
     width: 247px;
     height: 100%;
     background-color: white;
     display: inline-block;
     vertical-align: top;
+    border-right: 2px solid #eeeeee;
 }
 .circleB{
     width: 90px;
@@ -195,6 +216,7 @@ body{
     height: 100%;
     background-color: white;
     display: inline-block;
+    border-right: 2px solid #eeeeee;
 }
 .circleC{
     width: 90px;
