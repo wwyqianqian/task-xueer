@@ -188,6 +188,20 @@ body{
 a:hover{
   color: red;
 }
+.light{
+    width: 24px;
+    height: 24px;
+    color: #1dc091;
+    border: 2px solid;
+    border-radius: 50%;
+
+
+    border-width: 1px;
+    margin: 32px 0  0 111.3px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 36px;
+}
 .listB{
     width: 247px;
     height: 100%;
