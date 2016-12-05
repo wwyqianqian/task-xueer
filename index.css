@@ -155,7 +155,7 @@ body{
 }
 .hidelineA{
   display: block;
-  border-right: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;  /*  bug  */
 }
 .h1{
   color: #5c5c5c;
@@ -195,7 +195,7 @@ a:hover{
     border: 2px solid;
     border-radius: 50%;
 
-
+    font-weight: lighter; /* bug */
     border-width: 1px;
     margin: 32px 0  0 111.3px;
     text-align: center;
@@ -267,4 +267,37 @@ a:hover{
     color: #1dc091;
     font-family: "PingFang SC";
     font-weight: lighter;
+}
+.footer{
+  padding: 2px ;
+  width: 1137px;
+  height: 500px;
+  background-color: whitesmoke;
+}
+.sentenceA{
+  width: 1001px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+  border-top: 2px solid #eeeeee;
+}
+.sentenceB{
+  width: 1001px;
+  height: 250px;
+  text-align: center;
+  background-color: white;
+  margin: auto;
+}
+.s1{
+    font-size: 18px;
+    line-height: 12px;
+    color: #333333;
+    font-family: "PingFang SC";
+    padding: 50px 0 10px;
+}
+.s2{
+    font-size: 12px;
+    color: #1dc091;
+
 }
