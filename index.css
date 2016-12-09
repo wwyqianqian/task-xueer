@@ -105,7 +105,8 @@ body{
     height: 350px;
     display: block;
     position: relative;
-    left:calc(50% - 500px)
+    /*left:calc(50% - 500px)*/
+    margin: 0 auto;
 }
 .bannerpicturebox{
     width: 1001px;
@@ -144,7 +145,7 @@ body{
     display: inline-block;
     vertical-align: top;
 }
-.circleA{
+.circle{
     width: 90px;
     height: 90px;
     background-color: white;
@@ -213,7 +214,6 @@ div.h3:hover{
     color: #1dc091;
     border: 2px solid;
     border-radius: 50%;
-
     font-weight: lighter; /* bug */
     border-width: 1px;
     margin: 32px 0  0 111.3px;
@@ -229,7 +229,7 @@ div.h3:hover{
     vertical-align: top;
     border-right: 2px solid #eeeeee;
 }
-.circleB{
+/*.circleB{
     width: 90px;
     height: 90px;
     background-color: white;
@@ -243,7 +243,7 @@ div.h3:hover{
     color: #1dc091;
     font-family: "PingFang SC";
     font-weight: lighter;
-}
+}*/
 .listC{
     width: 247px;
     height: 100%;
@@ -251,7 +251,7 @@ div.h3:hover{
     display: inline-block;
     border-right: 2px solid #eeeeee;
 }
-.circleC{
+/*.circleC{
     width: 90px;
     height: 90px;
     background-color: white;
@@ -265,14 +265,14 @@ div.h3:hover{
     color: #1dc091;
     font-family: "PingFang SC";
     font-weight: lighter;
-}
+}*/
 .listD{
     width: 247px;
     height: 100%;
     background-color: white;
     display: inline-block;
 }
-.circleD{
+/*.circleD{
     width: 90px;
     height: 90px;
     background-color: white;
@@ -286,7 +286,7 @@ div.h3:hover{
     color: #1dc091;
     font-family: "PingFang SC";
     font-weight: lighter;
-}
+}*/
 .footer{
     padding: 2px ;
     width: 1137px;
