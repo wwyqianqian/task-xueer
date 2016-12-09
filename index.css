@@ -216,9 +216,9 @@ div.h3:hover{
     border-radius: 50%;
     font-weight: lighter; /* bug */
     border-width: 1px;
-    margin: 32px 0  0 111.3px;
+    margin: 20px auto;
     text-align: center;
-    line-height: 26px;
+    line-height: 30px;
     font-size: 36px;
 }
 .listB{
@@ -320,3 +320,9 @@ div.h3:hover{
     color: #1dc091;
 
 }
+
+
+
+/*按钮的样式.
+课程列表内容和边框有一定距离.
+list前面的黑点也不在文字的中间*/
