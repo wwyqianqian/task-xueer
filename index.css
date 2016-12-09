@@ -12,7 +12,7 @@ body{
     height: 100%;
     display: inline-block;
     position: relative;
-    left: 45px;
+    margin: auto 0px auto 35px;
 }
 .logo-picture{
     position: relative;
@@ -33,7 +33,8 @@ body{
 .header_font{
     font-size: 20px;
     text-decoration:none;
-    line-height:80px;
+    line-height: 80px;
+    margin-left: -40px;
 }
 .sy{
     color: red;
@@ -43,40 +44,46 @@ body{
 }
 .search{
     width:450px;
-    height: 100%;
+    height: 80px;
     display: inline-block;
     vertical-align: top;
 }
 .inputxe{
-    width: 268px;
-    height: 100%;
+    width: 272px;
+    height: 80px;
     display: inline-block;
+    vertical-align: top;
 }
 .search-input{
-    border:red 2px solid;
+    border:red 2px  solid;
     width: 266px;
     height: 30px;
     display: inline-block;
     position: relative;
-    top:calc(50% - 25px);
+    top:calc(50% - 17px);
 }
 .buttonxe{
     width:80px;
+    /*margin: 0px;
+    padding: 0px;*/
     height:100%;
     display: inline-block;
 }
 .search-button{
     width:80px;
     height:34px;
+    /*margin: 0px;
+    padding: 0px;*/
     display: inline-block;
     position: relative;
     top:calc(50% - 17px);
     background-image: url("http://p1.bqimg.com/4851/527ea2d653366686.png")
 }
 .login{
-    width: 70px;
+    width: 90px;
     height: 100%;
     display: inline-block;
+    vertical-align: top;
 }
 .dlzc{
     width: 90px;
@@ -85,12 +92,12 @@ body{
     position: relative;
     background-color: #1dc091;
     color: white;
-    top:calc(50% - 30px);
+    top:calc(50% - 17px);
     font-size: 14px;
 }
 .main{
     width: 1137px;
-    height:700px;
+    /*height:700px;*/
     background-color: whitesmoke;
 }
 .banner{
@@ -187,6 +194,19 @@ body{
 a:hover{
     color: red;
 }
+
+div.h1:hover{
+    color: red;
+}
+
+div.h2:hover{
+    color: red;
+}
+
+div.h3:hover{
+    color: red;
+}
+
 .light{
     width: 24px;
     height: 24px;
@@ -270,7 +290,7 @@ a:hover{
 .footer{
     padding: 2px ;
     width: 1137px;
-    height: 500px;
+    /*height: 500px;*/
     background-color: whitesmoke;
 }
 .sentenceA{
