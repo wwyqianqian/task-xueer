@@ -10,7 +10,7 @@ body{
 .logo {
     width: 120px;
     height: 100%;
-    display: inline-block;
+    display: inline-block;  
     position: relative;
     margin: auto 0px auto 35px;
 }
@@ -53,6 +53,8 @@ body{
     height: 80px;
     display: inline-block;
     vertical-align: top;
+    font-size: 0;
+    border-style: none;
 }
 .search-input{
     border:red 2px  solid;
