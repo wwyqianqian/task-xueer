@@ -1,6 +1,7 @@
 body{
     margin:0px;
     padding:0px;
+    background-color: whitesmoke;
 }
 .header{
     width: 100%;
@@ -56,13 +57,13 @@ body{
     vertical-align: top;
 }*/
 .search-input{
-    display: inline-block;
     border:red 2px  solid;
     width: 266px;
-    height: 30px;
-    display: inline-block;
+    height: 34px;
+    box-sizing: border-box;
+    vertical-align: top;
     position: relative;
-    top:calc(50% - 25px);
+    top: calc(50% - 17px);
 }
 /*.buttonxe{
     width:80px;
@@ -72,14 +73,13 @@ body{
     display: inline-block;
 } */
 .search-button{
-    display: inline-block;
     width:80px;
     height:34px;
     /*margin: 0px;
     padding: 0px;*/
     display: inline-block;
     position: relative;
-    top:calc(50% - 15px);
+    top:calc(50% - 17px);
     background-image: url("http://p1.bqimg.com/4851/527ea2d653366686.png");
     border-style: none;
 }
@@ -91,33 +91,36 @@ body{
 }*/
 .dlzc{
     width: 90px;
-    height: 40px;
+    height: 34px;
+    padding: 0px;
     display: inline-block;
     position: relative;
     background-color: #1dc091;
     color: white;
-    top:calc(50% - 27px);
+    vertical-align: top;
+    top:calc(50% - 17px);
     font-size: 14px;
-    border: solid;
+    border-style: none;
 }
 .main{
-    width: 1137px;
+    width: 1000px;
+    margin: 0 auto;
     /*height:700px;*/
     background-color: whitesmoke;
 }
 .banner{
-    width: 1001px;
+    width: 100%;
     height: 350px;
     display: block;
     position: relative;
     /*left:calc(50% - 500px)*/
-    margin: 0 auto;
 }
 .bannerpicturebox{
-    width: 1001px;
+    width: 100%;
     height: 350px;
     display: block;
     position: relative;
+    margin: 0 auto;
 
 }
 .rightbox_one{
