@@ -145,7 +145,7 @@ body{
     height: 350px;
     font-size: 0;
 }
-.listA{
+.list{
     width: 25%;
     height: 100%;
     background-color: white;
@@ -168,13 +168,16 @@ body{
     font-weight: lighter;
 }
 .hideline{
+    
     display: block;
     border-right: 2px solid #eeeeee;  /*  bug  */
+
 }
 .h1{
     color: #5c5c5c;
     font-size: 14px;
-    padding: 5px 30px;
+    
+
 }
 .h2{
     color: #5c5c5c;
@@ -187,12 +190,11 @@ body{
     padding: 5px 30px;
 }
 .h{
-    margin: 6px 0 0 0 ;
+    margin: 5px 50px 0 50px; 
     font-size:16px;
-    width: 200px;
+    width: 60%;
     line-height:20px;
     display: inline-block;
-    vertical-align: middle;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -228,13 +230,13 @@ div.h3:hover{
     line-height: 30px;
     font-size: 36px;
 }
-.listB{
+/*.listB{
     width: 25%;
     height: 100%;
     background-color: white;
     display: inline-block;
     vertical-align: top;
-}
+}*/
 /*.circleB{
     width: 90px;
     height: 90px;
@@ -250,12 +252,12 @@ div.h3:hover{
     font-family: "PingFang SC";
     font-weight: lighter;
 }*/
-.listC{
+/*.listC{
     width: 25%;
     height: 100%;
     background-color: white;
     display: inline-block;
-}
+}*/
 /*.circleC{
     width: 90px;
     height: 90px;
@@ -271,12 +273,12 @@ div.h3:hover{
     font-family: "PingFang SC";
     font-weight: lighter;
 }*/
-.listD{
+/*.listD{
     width: 25%;
     height: 100%;
     background-color: white;
     display: inline-block;
-}
+}*/
 /*.circleD{
     width: 90px;
     height: 90px;
@@ -328,6 +330,3 @@ div.h3:hover{
 
 
 
-/*按钮的样式.
-课程列表内容和边框有一定距离.
-list前面的黑点也不在文字的中间*/
