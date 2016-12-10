@@ -200,11 +200,12 @@ body{
     overflow: hidden;
     color: #5c5c5c;
     text-decoration:none;
+    margin: 0 auto;
 }
 .hl{
     width: 80%;
     margin: 0 auto;
-    padding-left: 60px;
+    
 }
 
 a:hover{
